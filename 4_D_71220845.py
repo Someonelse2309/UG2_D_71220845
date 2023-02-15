@@ -1,8 +1,6 @@
 ulg = 1
 smuanama = ['']
 smuamember = ['']
-a = 1
-b = 1
 while ulg == 1:
     print ("======= Selamat Datang =======")
     print ("Masukan Pilihan Anda\n 1. Menambah Data\n 2. Melihat Data\n 3. Keluar")
@@ -15,6 +13,8 @@ while ulg == 1:
         ulg = 1
         print ("\n")
     elif pil1 == 2:
+        a = 1
+        b = 1
         print ("Nama - Membership")
         jmlh = len(smuanama)
         while a < jmlh:
